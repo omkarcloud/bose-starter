@@ -16,8 +16,6 @@ python main.py
 ```
 The first run will take some time as it downloads the chrome driver executable, subsequent runs will be fast.
 
-4. It will search google maps 
-
 For more information read Bose Documentation at [https://www.omkar.cloud/bose/](https://www.omkar.cloud/bose/) 
 ---
 
