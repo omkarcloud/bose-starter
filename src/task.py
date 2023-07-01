@@ -1,10 +1,9 @@
 from selenium.webdriver.common.by import By
-
-from bose import BaseTask, Wait, Output
+from bose import *
 
 class Task(BaseTask):
 
-    def run(self, driver):
+    def run(self, driver, data):
         driver.get("https://quotes.toscrape.com/")
         els = driver.get_elements_or_none_by_selector('div.quote', Wait.SHORT)
         
