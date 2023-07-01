@@ -18,4 +18,4 @@ class Task(BaseTask):
             }
             items.append(item)
 
-        Output.write_finished(items)
+        return items
